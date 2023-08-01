@@ -3705,6 +3705,14 @@
  uniform_equipment_10: "1918 Uniform"
  uniform_equipment_10_desc: "An improved version of the 1915 Uniform design, with better protective capabilities."
 
+ #AFG
+ AFG_infantry_equipment_rifle_0: "Jezail"
+ AFG_infantry_equipment_rifle_0_short: "Jezail"
+
+ #ARG
+ ARG_infantry_equipment_rifle_6: "Argentinean Mauser Rifle M1891"
+ ARG_infantry_equipment_rifle_6_short: "Mauser Rifle M1891"
+
  #AUS
  AUS_infantry_equipment_rifle_05: "Infanterie-Gewehr M/1798"
  AUS_infantry_equipment_rifle_05_short: "Gewehr M/1798" 
@@ -3822,6 +3830,8 @@
  DEN_infantry_equipment_rifle_0_short: "M/1848 Tapriffel"
  DEN_infantry_equipment_rifle_1: "Danish 1853/66 Snider Rifle"
  DEN_infantry_equipment_rifle_1_short: "1853/66 Snider Rifle"
+ DEN_infantry_equipment_rifle_6: "Krag-Jørgensen M1889"
+ DEN_infantry_equipment_rifle_6_short: "Krag-Jørgensen M1889"
  #ENG
  ENG_cv_jet_fighter_equipment_1: "Hawker Sea-Fury"
  ENG_cv_jet_fighter_equipment_1_short: "Sea Fury"
@@ -4200,6 +4210,11 @@
  #SWI
  SWI_infantry_equipment_rifle_3: "Repetiergewehr Vetterli Modell 1867"
  SWI_infantry_equipment_rifle_3_short: "M1867"
+ #BEL
+ BEL_infantry_equipment_rifle_4: "M1870 Belgian Comblain"
+ BEL_infantry_equipment_rifle_4_short: "M1870 Belgian Comblain"
+ BEL_infantry_equipment_rifle_5: "M1882 Belgian Comblain"
+ BEL_infantry_equipment_rifle_5_short: "M1882 Belgian Comblain"
  #NOR
  NOR_infantry_equipment_rifle_0: "M1807 Infanterimuskett"
  NOR_infantry_equipment_rifle_0_short: "M1807 Infanterimuskett"
@@ -4213,6 +4228,13 @@
  NOR_infantry_equipment_rifle_4_short: "M1867 Remington"
  NOR_infantry_equipment_rifle_5: "M1876 Krag Petersson"
  NOR_infantry_equipment_rifle_5_short: "M1876 Krag Petersson"
+ #SER
+ SER_infantry_equipment_rifle_0: "Balkan Musket"
+ SER_infantry_equipment_rifle_0_short: "Balkan Musket"
+ SER_infantry_equipment_rifle_2: "Francotte-Blaznavac Musket"
+ SER_infantry_equipment_rifle_2_short: "Francotte-Blaznavac Musket"
+ SER_infantry_equipment_rifle_3: "M1868 Peabody Rifle"
+ SER_infantry_equipment_rifle_3_short: "M1868 Peabody Rifle"
  #RAJ
  RAJ_modern_tank_equipment_2: "Centurion Mk3"
  RAJ_modern_tank_equipment_2_short: "Centurion Mk3"
@@ -4333,10 +4355,6 @@
  SPR_infantry_equipment_rifle_3_short: "1859/67 Berdan Infantry Rifle"
  SPR_infantry_equipment_rifle_4: "Spanish M1871/89 Remington rifle"
  SPR_infantry_equipment_rifle_4_short: "M1871/89 Remington rifle"
- #SWE
- #SWE_infantry_equipment_rifle_0: " M/1815 Musket"
- #SWE_machine_gun_equipment_1: "Kulsprutegevär Fm/Kjellman"
- #SWE_machine_gun_equipment_1_short: "Kjellman"
  #THU
  THU_infantry_equipment_rifle_05: "Infanteriegewehr M/1809"
  THU_infantry_equipment_rifle_05_short: "M/1809"

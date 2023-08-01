@@ -314,6 +314,10 @@ focus_tree = {
 					tech_recon = 1
 				}
 			}
+			unlock_decision_tooltip = ITA_Bersaglieri_Campaign_Abruzzo
+			unlock_decision_tooltip = ITA_Bersaglieri_Campaign_Campania
+			unlock_decision_tooltip = ITA_Bersaglieri_Campaign_Apulia
+			unlock_decision_tooltip = ITA_Bersaglieri_Campaign_Calabria
 		}
 	}
 	focus = {
@@ -676,13 +680,8 @@ focus_tree = {
 		x = -2
 		y = 1
 		completion_reward = {
-			add_power_balance_value = {
-				id = ITA_Balance_of_Power_Brigandage
-				value = 0.05
-			}
-			add_equipment_to_stockpile = {
-				type = infantry_equipment
-				amount = -250
+			country_event = {
+				id = ita.130
 			}
 		}
 	}
@@ -701,6 +700,9 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			# Will lead to new Generals (Possible Decision GUI STUFF??)
+			country_event = {
+				id = ita.128
+			}
 		}
 	}
 	focus = {
@@ -715,8 +717,7 @@ focus_tree = {
 		x = -2
 		y = 1
 		completion_reward = {
-			# event chain with Papal States, IF THEY EXIST
-			# THings like military convention
+			### Will be 1867 ish edict from Papal Government
 		}
 	}
 	focus = {
@@ -763,6 +764,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			### Event about violations of the law in order to stop brigandage
+			### Unlock Decisions about Battles with Specific Brigands
 		}
 	}
 	focus = {
@@ -786,6 +788,9 @@ focus_tree = {
 		prerequisite = {
 			focus = ITA_PIE_focus_Southern_Development
 		}
+		available = {
+			has_completed_focus = ITA_PIE_focus_Tackling_Brigandage
+		}
 		mutually_exclusive = {
 			focus = ITA_PIE_focus_Regional_Economic_Administrations
 		}
@@ -794,6 +799,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			## add buildings in North but lose a few buildings (decision)
+			# unlock decisions which damage buildings in south
 		}
 	}
 	focus = {
@@ -816,6 +822,9 @@ focus_tree = {
 		cost = 45
 		prerequisite = {
 			focus = ITA_PIE_focus_Southern_Development
+		}
+		available = {
+			has_completed_focus = ITA_PIE_focus_Tackling_Brigandage
 		}
 		mutually_exclusive = {
 			focus = ITA_PIE_focus_Move_Southern_Industry_North
@@ -979,7 +988,7 @@ focus_tree = {
 		y = 1
 		completion_reward = {
 			### To be honest I have no idea what this is supposed to refer to anymore
-			### Eventually it should probably represent a pre-aspromonte event chain about the possibility of working with Garibaldi
+			### Eventually it should probably represent a pre-aspromonte event chain about the possibility of working with Garibaldi, unlocks the decisions to prepare for a war against Austria
 		}
 	}
 	focus = {
@@ -1239,7 +1248,7 @@ focus_tree = {
 	}
 	focus = {
 		id = ITA_PIE_focus_Send_an_Agent_to_Berlin
-		icon = GFX_focus_bismark
+		icon = GFX_focus_bismarck
 		cost = 45
 		prerequisite = {
 			focus = ITA_PIE_focus_News_from_Nigra
@@ -1315,6 +1324,11 @@ focus_tree = {
 		completion_reward = {
 			country_event = {
 				id = ita.1
+			}
+			hidden_effect = {
+				country_event = {
+					id = ita.129
+				}
 			}
 		}
 	}
