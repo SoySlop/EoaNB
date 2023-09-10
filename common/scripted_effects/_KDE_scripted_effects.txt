@@ -78,7 +78,7 @@ KDE_bi_yearly_event_fire_1858 = {
 		country_event = { id = nap_france.133 days = 621 } # 1859.9.14
 	}
 	FRA = {
-		country_event = { id = nap_france_flavor.25 days = 278 } # 1858.10.6
+		#country_event = { id = nap_france_flavor.25 days = 278 } # 1858.10.6
 		news_event = { id = news_flavor.6 days = 45 } # 1858.2.11
 	}
 	LIB = {
@@ -107,6 +107,7 @@ KDE_bi_yearly_event_fire_1858 = {
 	UCT = {
 		news_event = { id = worldnewsfl.11 days = 225 } # 1858.8.14
 		news_event = { id = worldnewsfl.12 days = 605 } # 1859.8.29
+		news_event = { id = news_flavor.13 days = 703 } #1859.12.05
 	}
 	BRA = {
 		country_event = { id = brazil.prime.minister.appointed.1 days = 345 }	#1858.12.12
@@ -1118,7 +1119,7 @@ KDE_bi_yearly_event_fire_1868 = {
 		country_event = { id = prussia.707 days = 227 } # 1868.8.16
 	}
 	JAP = {
-		country_event = { id = JAP_imperial.24 days = 243 } # 1868.8.1
+		country_event = { id = JAP_imperial.32 days = 243 } # 1868.8.1
 	}
 	SER = {
 		country_event = { id = SER_politics.60 days = 160 } # 1868.6.10
@@ -1207,6 +1208,9 @@ KDE_bi_yearly_event_fire_1870 = {
 		news_event = { id = usa.276 days = 304 } # 1870.11.1
 		news_event = { id = usa.275 days = 651 } # 1871.10.14
 	}
+	JAP = {
+		country_event = { id = JAP_imperial.22 days = 716 } # 1871.12.18
+	}
 }
 
 KDE_bi_yearly_event_fire_1872 = {
@@ -1259,9 +1263,11 @@ KDE_bi_yearly_event_fire_1872 = {
 		country_event = { id = scan_monetary_union.4 days = 181 } # 1872.7.1
 	}
 	JAP = {
-		country_event = { id = JAP_imperial.25 days = 0 } # 1872.1.1
-		country_event = { id = JAP_imperial.26 days = 546 } # 1873.7.1
-		country_event = { id = JAP_imperial.27 days = 608 } # 1873.9.1
+		country_event = { id = JAP_imperial.33 days = 0 } # 1872.1.1
+		country_event = { id = JAP_imperial.34 days = 546 } # 1873.7.1
+		country_event = { id = JAP_imperial.35 days = 608 } # 1873.9.1
+		country_event = { id = JAP_imperial.30 days = 352 } # 1872.12.18
+		country_event = { id = JAP_imperial.31 days = 716 } # 1873.12.18
 	}
 }
 
@@ -1333,6 +1339,9 @@ KDE_bi_yearly_event_fire_1874 = {
 	}
 	POL = {
 		country_event = { id = poland.93 days = 365 }
+	}
+	JAP = {
+		country_event = { id = JAP_imperial.27 days = 125 } # 1874.05.6
 	}
 }
 
@@ -1490,7 +1499,7 @@ KDE_bi_yearly_event_fire_1882 = {
 		country_event = { id = britishmalaya.6 days = 0 } # 1882.01.01 
 	}
 	JAP = {
-		country_event = { id = JAP_political.8 days = 0 } # 1882.01.01 
+		country_event = { id = JAP_imperial.8 days = 0 } # 1882.01.01 
 	}
 	POL = {
 		country_event = { id = poland.94 days = 365 }
